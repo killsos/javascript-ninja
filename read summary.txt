@@ -1,0 +1,38 @@
+测试
+
+性能分析
+
+调试技巧
+
+浏览器事件
+网络事件  Ajax
+用户事件
+计时器事件
+
+
+this  调用/执行上下文
+
+函数调用方法:
+函数
+构造器
+属性方法
+call/apply
+bind
+
+focusin focusout 是IE引入专有事件用于检测focus blur事件,并且发生focus/blur事件之前
+相当于捕获事件而不是冒泡事件
+
+DOMContentLoaded 是w3c
+
+document.readyState === "complete"
+
+document.documentElement.doScroll('left')
+
+window.frameElement
+
+
+mouseenter/mouseleave是IE事件 简化确定鼠标当前位置何时处于一个元素内部/外部过程
+
+Mouseover：不论鼠标指针穿过被选元素或其子元素，都会触发 mouseover 事件
+
+Mouseenter：只有在鼠标指针穿过被选元素时，才会触发 mouseenter 事件
